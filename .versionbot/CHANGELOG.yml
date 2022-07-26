@@ -1,4 +1,41 @@
 - commits:
+    - subject: Added parallell build Added a parallell build to the resinci file
+      hash: c84417e3851ad7a28c83ef7fd0c27b80064b121b
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+    - subject: Created 2 seperate dockerfiles To allow building the no-systemd version
+        in parallell.
+      hash: 35e2541b363c5980ae596524d60244f82245007e
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+    - subject: Removed systemd Removed systemd from balena vpn container
+      hash: 06c0610d3cec31a7301d2f9bfd486b9be43ed190
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+    - subject: Remove systemd Removing systemd to enable running unprivileged
+      hash: 2eabbfa6779499287bddd11af3f73dd5e3fccd8c
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Robbe Haesendonck
+      nested: []
+  version: 11.10.0
+  title: "'Remove systemd'"
+  date: 2022-07-26T08:47:42.104Z
+- commits:
     - subject: Update open-balena-base to 13.4.0
       hash: c5954da2204fd67694298e9599d8f4a8eef85f5a
       body: |
