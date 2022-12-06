@@ -1,4 +1,16 @@
 - commits:
+    - subject: Typos and such
+      hash: e405c8516d24ef98286bd19525813f4af663135a
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Dmitry Sevastianov
+      nested: []
+  version: 11.14.0
+  title: ""
+  date: 2022-12-06T19:28:43.754Z
+- commits:
     - subject: Explicitly/consistently use 127.0.0.1 as the openvpn management host
       hash: e4d48dbc8b5624b77e4d9c989b56cecc1827e50b
       body: |
