@@ -25,7 +25,7 @@ import net from 'net';
 const Telnet =
 	// This weird import is because telnet-client uses `export =` but the typings use `export default`
 	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	require('telnet-client') as typeof import('telnet-client').default;
+	require('telnet-client') as typeof import('telnet-client');
 
 import { VPN_API_PORT } from './config';
 import type { Netmask } from './netmask';
