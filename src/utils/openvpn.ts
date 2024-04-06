@@ -138,7 +138,7 @@ export class VpnManager extends EventEmitter implements VpnManagerEvents {
 		super();
 		this.pidFile = `/var/run/openvpn/server-${this.instanceId}.pid`;
 		// proxy `data` events from connector, splitting at newlines
-		this.connector.on('data', (data) => {
+		this.connector.on('data', (data: string) => {
 			const lines = (this.buf + data.toString()).split(/\r?\n/);
 			this.buf = lines.pop()!;
 			for (const line of lines) {
